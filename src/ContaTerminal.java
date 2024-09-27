@@ -1,5 +1,10 @@
 public class ContaTerminal {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        int numero;
+        String agencia;
+        String nomeCliente;
+        float saldo;
+
+
     }
 }
