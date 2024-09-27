@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class ContaTerminal {
     public static void main(String[] args) {
         int numero;
@@ -5,6 +7,21 @@ public class ContaTerminal {
         String nomeCliente;
         float saldo;
 
+        //criando um objeto da classe Scanner;
+        Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Por favor, digite o número da Agência!");
+        numero = scanner.nextInt();
+
+        scanner.nextLine();
+
+        System.out.println("Agora, informe a agência! ");
+        agencia  = scanner.nextLine();
+
+        System.out.println("Agora, digite o seu nome! ");
+        nomeCliente  = scanner.nextLine();
+
+        System.out.println("Por fim, informe o seu saldo! ");
+        saldo  = scanner.nextFloat();
     }
 }
